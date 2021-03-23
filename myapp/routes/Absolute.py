@@ -1,6 +1,8 @@
 import math
 from fractions import Fraction
-from flask import Flask
+import flask
+from myapp import app
+
 
 
 @app.route('/to_radians/<int:a>')
