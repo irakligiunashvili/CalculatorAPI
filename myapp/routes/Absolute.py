@@ -1,8 +1,6 @@
 import math
-from fractions import Fraction
-from flask import request, jsonify
-from myapp import app
 
+from myapp import app
 
 
 @app.route('/absolute/<int:a>', methods=['POST'])
