@@ -11,3 +11,4 @@ from .factorial import factorial
 from .square_root_finder import square_root
 from .median import medianer
 from .convert_to_radians import toRadians
+from .Absolute import absolute
