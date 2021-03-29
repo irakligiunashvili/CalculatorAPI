@@ -5,7 +5,7 @@ from myapp import app
 
 
 
-@app.route('/to_radians/<int:a>')
+@app.route('/absolute/<int:a>')
 def absolute(a):
     return(f"the absolute value of {a} is {math.fabs(a)}")
 
